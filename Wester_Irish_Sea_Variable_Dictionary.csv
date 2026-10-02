@@ -1,0 +1,32 @@
+Variable,Description,Units
+year,Calendar year of observation,year
+winter_min_chl,Minimum winter chlorophyll concentration,mg L-1
+spring_max_chl,Maximum spring chlorophyll concentration,mg L-1
+bloom_intensity,Difference between spring maximum and winter minimum chlorophyll concentration,mg L-1
+winter_mean_nut,Mean winter concentration of the specified nutrient,umol L-1
+spring_min_nut,Minimum spring concentration of the specified nutrient,umol L-1
+drawdown_doy,Day of year at which the nutrient drawdown to the minium spring concentration of a specified nutrient is reached.,DOY
+drawdown_mag,Magnitude of seasonal nutrient drawdown calculated as winter mean minus spring minimum concentration,umol L-1
+nutrient,Nutrient species analysed (NO3 NH4 SRP SiO2),categorical
+temp_mean,Mean annual sea surface temperature,degC
+temp_min,Minimum annual sea surface temperature,degC
+temp_max,Maximum annual sea surface temperature,degC
+hw_count,Number of marine heatwave events in a calendar year,count
+hw_int_cum,Cumulative marine heatwave intensity in a calendar year,degC days
+hw_total_days,Total marine heatwave duration in a calendar year,days
+cs_count,Number of marine cold-spell events,count
+cs_int_cum,Cumulative marine cold-spell intensity,degC days
+cs_total_days,Total marine cold-spell duration,days
+thermal_stress,Net thermal anomaly index combining marine heatwave and cold-spell conditions,dimensionless
+nutrient_constraint,Nutrient availability index relative to long-term conditions,dimensionless
+thermal_background,Thermal state relative to the study-period climatology,dimensionless
+Diatom_min,Minimum annual diatom abundance,cells L-1
+Diatom_max,Maximum annual diatom abundance,cells L-1
+diatom_min_doy,Day of year of minimum diatom abundance,DOY
+diatom_max_doy,Day of year of maximum diatom abundance,DOY
+Dinoflag_min,Minimum annual dinoflagellate abundance,cells L-1
+Dinoflag_max,Maximum annual dinoflagellate abundance,cells L-1
+dinoflag_min_doy,Day of year of minimum dinoflagellate abundance,DOY
+dinoflag_max_doy,Day of year of maximum dinoflagellate abundance,DOY
+Zoop_richness,Annual maximum zooplankton taxonomic richness,number of taxa
+nao_DJFM,"Winter North Atlantic Osscilation Index for December, January, February and March",dimensionless
